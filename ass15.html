@@ -12,14 +12,12 @@
 
   <form method="post" action="#">
 
-    <!-- Basic Information -->
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
 
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required><br><br>
 
-    <!-- Course Selection -->
     <label for="course">Which course/workshop are you giving feedback for?</label><br>
     <select id="course" name="course">
       <option value="mern">MERN Stack Course</option>
@@ -27,7 +25,6 @@
       <option value="webdev">Web Development Workshop</option>
     </select><br><br>
 
-    <!-- Star Rating -->
     <fieldset>
       <legend>Rate your experience:</legend>
       <input type="radio" id="star1" name="rating" value="1">
@@ -47,7 +44,6 @@
     </fieldset>
     <br>
 
-    <!-- Feedback Aspects -->
     <label>What aspects are you giving feedback on?</label><br>
     <input type="checkbox" id="content" name="feedback" value="content">
     <label for="content">Content Quality</label>
@@ -62,15 +58,12 @@
     <label for="experience">Overall Experience</label>
     <br><br>
 
-    <!-- Suggestions -->
     <label for="suggestions">Additional Suggestions:</label><br>
     <textarea id="suggestions" name="suggestions" rows="4" cols="40"></textarea><br><br>
 
-    <!-- Satisfaction -->
     <label for="satisfaction">How satisfied are you? (1–10 scale)</label><br>
     <input type="range" id="satisfaction" name="satisfaction" min="1" max="10"><br><br>
 
-    <!-- Recommendation -->
     <fieldset>
       <legend>Would you recommend us to a friend?</legend>
       <input type="radio" id="yes" name="recommend" value="yes">
@@ -81,11 +74,9 @@
     </fieldset>
     <br>
 
-    <!-- Date -->
     <label for="date">Date of Feedback:</label>
     <input type="date" id="date" name="date"><br><br>
 
-    <!-- Buttons -->
     <input type="submit" value="Submit">
     <input type="reset" value="Reset">
 
